@@ -4,7 +4,6 @@ module Api
       prefix :api
       mount Api::V1::Root
 
-      add_swagger_documentation \
-      mount_path: '/swagger_doc'
+     
     end
 end

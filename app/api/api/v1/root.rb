@@ -1,4 +1,4 @@
-# require "grape-swagger"
+require "grape-swagger"
 
 module Api
     module V1
@@ -6,7 +6,8 @@ module Api
         prefix :api
         mount Api::V1::Graduates
         # mount API::V1::AnotherResource
-
+        add_swagger_documentation \
+        mount_path: '/swagger_doc'
         # add_swagger_documentation(
         #   api_version: "v1",
         #   hide_documentation_path: true,
