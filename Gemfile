@@ -62,3 +62,8 @@ gem 'grape-swagger'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'grape-active_model_serializers'
+
+gem 'grape-swagger'
+gem 'grape-swagger-entity'
+gem 'grape-swagger-representable'
+gem 'grape-swagger-rails'
