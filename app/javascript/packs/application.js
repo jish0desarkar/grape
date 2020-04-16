@@ -14,4 +14,6 @@ require("channels")
 // or the `imagePath` JavaScript helper below.
 //
 // const images = require.context('../images', true)
+//
+//= require_tree .
 // const imagePath = (name) => images(name, true)

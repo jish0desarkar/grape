@@ -54,3 +54,11 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'grape'
+
+gem 'grape-swagger-rails'
+
+gem 'grape-swagger'
+
+gem 'rack-cors', :require => 'rack/cors'
+
+gem 'grape-active_model_serializers'
